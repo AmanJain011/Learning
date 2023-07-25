@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding 0;
+}
+
+#header .inner{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header  #logo{
+    width: 250px;
+}
+
+#header .inner nav ul{
+    list-style: none;
+    display: flex;
+}
+
+#header .inner  nav ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #40484a;
+    font-size: 1.2rem;
+}
+
+#header .inner nav ul li:last-child a{
+    background-color:#008298;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+main #cover{
+    padding: 70px 0px;
+}
+
+main #cover .inner{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+main #cover .inner h1{
+    font-size: 4rem;
+    color: #40484a;
+}
+
+main #cover .inner form label span{
+    color: red;
+}
+
+main #cover .inner form label{
+    display: block;
+    padding: 20px 0px;
+}
+
+main #cover .inner form input{
+    padding: 10px 10px;
+    font-size:1.2rem;
+}
+
+main #cover .inner form input[type=submit]{
+    background-color: #40484a;
+    border-radius:5px;
+    color: white;
+    font-weight: bold;
+}
